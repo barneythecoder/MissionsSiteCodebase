@@ -1,7 +1,7 @@
 {
-  "name": "meanboilerplate",
+  "name": "missionssitecodebase",
   "version": "1.0.0",
-  "description": "MEAN stack Boilerplate",
+  "description": "Missions Site Codebase",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -17,6 +17,6 @@
     "passport": "*",
     "passport-jwt": "*"
   },
-  "author": "Raphael Claude Ismael",
+  "author": "Greenhills Christian Fellowship",
   "license": "ISC"
 }
