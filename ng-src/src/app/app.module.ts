@@ -4,17 +4,20 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LandingComponent } from './components/landing/landing.component';
+import { RegistrationComponent } from './components/registration/registration.component';
 
 
 
 const appRoutes: Routes =[
- {path: '', component: LandingComponent}
+ {path: '', component: LandingComponent},
+ {path: '/register', component: RegistrationComponent}
 ];
 
 @NgModule({
   declarations: [
     AppComponent,
-    LandingComponent
+    LandingComponent,
+    RegistrationComponent
   ],
   imports: [
     BrowserModule,
