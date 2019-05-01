@@ -10,7 +10,7 @@ import { RegistrationComponent } from './components/registration/registration.co
 
 const appRoutes: Routes =[
  {path: '', component: LandingComponent},
- {path: '/register', component: RegistrationComponent}
+ {path: 'register', component: RegistrationComponent}
 ];
 
 @NgModule({
