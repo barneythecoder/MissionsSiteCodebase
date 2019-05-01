@@ -9,7 +9,7 @@ export class MSAPIService {
   constructor(private http: Http) { }
 
   private localhost = "http://localhost:3000";
-  private truehost = "https://lawyer-site.herokuapp.com";
+  private truehost = "https://example.com";
   private env = this.truehost;
 
   private getHeader(){
